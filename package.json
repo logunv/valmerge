@@ -1,0 +1,21 @@
+{
+  "name": "valmerge",
+  "version": "0.0.7",
+  "description": "Mail Merge module for  NodeJS with mongodb",
+  "main": "valmerge.js",
+  "scripts": {
+    "test": "cd test;sh pm-tasks.sh"
+  },
+  "keywords": [
+    "mail",
+    "merge",
+    "valmerge"
+  ],
+  "dependencies": {
+    "mongodb":"~2.2.10",
+    "nodemailer":"~2.6.4",
+    "date-format":"~0.0.2"
+  },
+  "author": "Logu Venkatachalam (logunv@gmail.com)",
+  "license": "ISC"
+}

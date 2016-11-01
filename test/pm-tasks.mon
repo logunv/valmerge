@@ -1,0 +1,11 @@
+//
+// populate the mongodb data with project tasks
+//
+// run using mongo client. See pm-tasks.sh
+//
+
+db.project.drop();
+
+db.project.insert({project:'valmerge', name:'Logu', email:'logunv@gmail.com' ,task:'Publish ValMerge', duedate:new Date(), lead:'logunv+leadr@gmail.com'});
+db.project.insert({project:'valmerge', name:'John', email:'logunv+john@gmail.com' ,task:'Test ValMerge', duedate:new Date('10/20/2016'), lead:'logunv+lead@gmail.com'});
+db.project.insert({project:'valmergeXXX', name:'John', email:'logunv+john@gmail.com' ,task:'Test ValMerge', duedate:new Date('10/20/2016'), lead:'logunv+lead@gmail.com'});
